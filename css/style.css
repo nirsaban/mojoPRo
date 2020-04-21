@@ -1,0 +1,94 @@
+body,html{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  object-fit: cover;
+ direction: rtl;
+ background:color-change-2x ;
+}
+
+#map {
+  height: 300px;  
+  width: 75%;  
+  border-radius: 30px;
+
+ }
+ .container{
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+   padding: 5rem;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+ }
+ .forms{
+  display: flex;
+   width: 100%;
+   justify-content: center;
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+   border-radius: 30px;
+ }
+ h1,.h4{
+   margin: 0 auto;
+   text-align: center;
+   color: azure;
+   font-weight: bolder;
+
+ }
+
+ .color-change-2x {
+
+  animation: color-change-2x 2000ms infinite alternate both;
+}
+@-webkit-keyframes color-change-2x {
+0% {
+background: #19dcea;
+}
+100% {
+background: #b22cff;
+}
+}
+@keyframes color-change-2x {
+0% {
+background: #19dcea;
+}
+100% {
+background: #b22cff;
+}
+}
+ .tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.895, 0.030, 0.685, 0.220) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.895, 0.030, 0.685, 0.220) both;
+}
+
+
+ @-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
